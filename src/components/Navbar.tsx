@@ -37,7 +37,7 @@ import { IoMdMenu } from "react-icons/io";
           <Box display="flex" alignItems="center" gap={1}>
             <img src="/zaph-logo.jpg" alt="Zaph Tours Logo" style={{ height: 40 }} />
           </Box>
-          <Button component={Link} to="/contact" variant="contained" color="inherit">
+          <Button component={Link} to="/contact" variant="contained" color="primary">
             Contact Us
           </Button>
         </Toolbar>
@@ -64,7 +64,8 @@ import { IoMdMenu } from "react-icons/io";
                   key={item.label}
                   component={Link}
                   to={item.path}
-                  sx={{ color: "black" }}
+                  
+                  sx={{ color: "black", background:"#bcaaa4" }}
                 >
                   {item.label}
                 </Button>

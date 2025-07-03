@@ -120,7 +120,7 @@ const testimonies = [
       </Box>
 
       {/* About Us */}
-      <Box maxHeight={500} sx={{ bgcolor: "#eeeeee", py: 6 }}>
+      <Box maxHeight={500} sx={{ bgcolor: "#efebe9", py: 6 }}>
         <Typography
           variant="h2"
           fontFamily={"serif"}
